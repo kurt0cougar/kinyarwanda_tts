@@ -1,5 +1,5 @@
 
-The model is kept on huggingface and you must be logged in to access it. Use this (link)[https://huggingface.co/join] to create an account if you do not have one.
+The model is kept on huggingface and you must be logged in to access it. Use this [link](https://huggingface.co/join) to create an account if you do not have one.
 
 To download the model, use:
 Go to the pre-allocated directory:
