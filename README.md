@@ -4,6 +4,7 @@ The model is kept on huggingface and you must be logged in to access it. Use thi
 To download the model, use:
 Go to the pre-allocated directory:
 ```
+mkdir model_files
 cd model_files
 ```
 The download the model files from huggingface:
