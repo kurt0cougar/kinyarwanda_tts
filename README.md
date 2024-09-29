@@ -20,12 +20,18 @@ The download the model files from huggingface:
 ```
  huggingface-cli download --local-dir . DigitalUmuganda/KinyarwandaTTS_female_voice
 ```
+Move to the root of your ROS workspace, and then:
+```
+catkin_make
+source devel/setup.bash
+```
 
 To run the node first launch the naoqi node:
 ```
 roslaunch naoqi_driver naoqi_driver.launch nao_ip:=172.29.111.230 network_interface:=enp0s3
 ```
-Then launch the TTS node with:
+Then in the next tab, launch the TTS node with the following:
 ```
+source devel/setup.bash
 roslaunch naoqi_driver naoqi_driver.launch nao_ip:=172.29.111.230 network_interface:=enp0s3
 ```
