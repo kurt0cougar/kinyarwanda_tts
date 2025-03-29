@@ -33,5 +33,5 @@ roslaunch naoqi_driver naoqi_driver.launch nao_ip:=172.29.111.230 network_interf
 Then in the next tab, launch the TTS node with the following:
 ```
 source devel/setup.bash
-roslaunch naoqi_driver naoqi_driver.launch nao_ip:=172.29.111.230 network_interface:=enp0s3
+rosrun kinyarwanda_tts tts_node.py
 ```
