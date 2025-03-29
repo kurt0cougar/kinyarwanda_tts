@@ -35,3 +35,7 @@ Then in the next tab, launch the TTS node with the following:
 source devel/setup.bash
 rosrun kinyarwanda_tts tts_node.py
 ```
+Then open the third terminal to test if the model is working by typing :
+```
+rostopic pub /text_to_say std_msgs/string "data:'muraho.'"
+```
